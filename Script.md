@@ -1,4 +1,4 @@
-Its a small program made in any language that targets an specific function or feature.
+Its a small program made in any [[Programming Language]] that targets an specific function or feature.
 
 Most of the scripts don't have an *UI* because they run in the *background*. Some scripts have an *TUI*.
 
@@ -15,7 +15,7 @@ In *Unix* based systems every script and interpreted program has to follow the f
 
 ## Example
 
-The following script (`script1`) is an example made in [[Python]]:
+The following script (`script1`) is an example made in *python*:
 
 ```python
 #!/usr/bin/python3

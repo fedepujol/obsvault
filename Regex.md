@@ -1,8 +1,9 @@
-# Syntax
+## Syntax
 There are multiple flavours of regex but every flovour has a *common ground*.
 
-# Useful Regex
 
+
+## Useful Regex
 
 To change from `@RequestMapping` to `@XxxMapping` use the following regex:
 ```
