@@ -8,25 +8,34 @@ There are *quantifiers* and *matchers* modifiers and a few *wildcadrs*.
 
 #### Matchers
 `|` Boolean **or**
-`[]` or `()` for Grouping
+`[]` or `()` for Grouping.
+`.`: Any character except newline.
 
 ##### Scape Matchers
 The *scape* character depends of the syntax (Unix, Perl, etc).
 
 The most common scape character is the backslash (`\`). [[Lua]] has a percentage sign (`%`) as a scape.
 
-`\w`: Alphanumeric characters only.
-`\s`: Space characters
+`\w`: Words only.
+`\d`: Digits only.
+`\s`: Space characters.
+`\n`: Newline.
+`\t`: Tabs.
+`\r`: Carriage return.
 
 #### Quantifiers
-`?`
-`*`
-`+`
+`?`: One or zero matches.
+`*`: One or more matches.
+`+`:  Zero or more matches.
+`{}`: Number of matches.
 
-#### Wildcards
-`.`
-`^`
-`$`
+#### Anchors
+`^`: Start of a string.
+`$`: End of a string.
+
+#### Lookaround
+`(?=abc)`: Positive look ahead.
+`(?!abc)`: Negative look ahead.
 
 ## Examples
 
